@@ -14,9 +14,6 @@ class ConferenceController extends AbstractController
      */
     public function index(string $name = ''): Response
     {
-        // return $this->render('conference/index.html.twig', [
-        //     'controller_name' => 'ConferenceController',
-        // ]);
         $greet = '';
         if ($name) {
             $greet = sprintf('<h1>Hello %s!</h1>', htmlspecialchars($name));
@@ -28,7 +25,6 @@ class ConferenceController extends AbstractController
         <img src="/images/under-construction.gif" />
    </body>
 </html>
-EOF
-        );
+EOF);
     }
 }
