@@ -4,7 +4,7 @@ services:
     database:
         image: postgres:13-alpine
         environment:
-            POSTGRES_USER: main
-            POSTGRES_PASSWORD: main
-            POSTGRES_DB: main
+            POSTGRES_USER: kulcua
+            POSTGRES_PASSWORD: kul123
+            POSTGRES_DB: book
         ports: [5432]
