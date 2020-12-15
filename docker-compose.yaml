@@ -8,3 +8,7 @@ services:
             POSTGRES_PASSWORD: kul123
             POSTGRES_DB: book
         ports: [5432]
+
+    redis:
+        image: redis:5-alpine
+        ports: [6379]
